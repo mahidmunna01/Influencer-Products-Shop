@@ -53,7 +53,9 @@ body{
   font-weight: bold;
   text-decoration: none;
 }
-.btn:hover{
+.btn:hover,
+.btn2:hover
+{
   background-color: black;
 }
 
@@ -127,13 +129,12 @@ banner-img{
 
 /* ##this is main Section */
 .main{
-  max-width: 1300px;
+  max-width: 1450px;
   margin: 0 auto;
    margin-bottom: 8%;
 }
 /* main part one */
 .main-one{
-  max-width: 1250px;
   margin: 0 auto;
   margin-bottom: 8%;
 }
