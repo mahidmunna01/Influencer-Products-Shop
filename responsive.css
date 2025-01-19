@@ -1,0 +1,180 @@
+/* Mobile Responsive  */
+@media screen and (max-width:576px){
+  .nav-left{
+    display: none;
+  }
+  .header,
+  .main{
+    padding: 0 5%;
+    margin: 0 ;
+  }
+  .main{
+    margin-top: 10%;
+  }
+   nav,
+  .nav-left{
+    flex-direction: column;
+  }
+  .banner{
+    flex-direction: column-reverse;
+  }
+  .banner-left{
+    text-align: center;
+  }
+  .banner-title{
+    font-size: 1.75rem;
+  }
+   .banner-description{
+    font-size: 14px;
+   }
+  .banner-title,
+  .banner-description{
+    padding: 0;
+  }
+  .banner-img{
+    width: 100%;
+  }
+  .banner-container{
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 2%;
+  }
+  .logo-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    border: none;
+  }
+  .logo-section img{
+    width: 100%;
+  }
+  .logo-section img:hover{
+    transform: none;
+  }
+  .products-box{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .products-item h3{
+    font-weight: bold;
+  }
+  .main-two{
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .main-two, .right-side{
+    margin-bottom: 10%;
+  }
+  .right-side h1{
+    font-size: 24px;
+  }
+
+  footer h1{
+    font-size: 16px;
+  }
+  footer p,i{
+    font-size: 12px;
+  }
+}
+
+
+/* Tablet Responsive */
+@media screen and (min-width:576px) and (max-width:1500px) {
+.nav-left{
+    display: none;
+  }
+  .logo-title{
+    font-size: 1.8rem;
+  }
+  .header,
+  .main{
+    padding: 0 5%;
+    margin: 0 ;
+  }
+  .main{
+    margin-top: 10%;
+  }
+   nav,
+  .nav-left{
+    flex-direction: column;
+  }
+  .banner{
+    flex-direction: column-reverse;
+  }
+  .banner-left{
+    text-align: center;
+  }
+  .banner-title{
+    font-size: 2rem;
+  }
+   .banner-description{
+    font-size: 1rem;
+   }
+  .banner-title,
+  .banner-description{
+    padding: 0;
+  }
+  .banner-img{
+    width: 100%;
+  }
+  .banner-container{
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 2%;
+  }
+  .logo-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    border: none;
+  }
+  .logo-section img{
+    width: 100%;
+  }
+  .logo-section img:hover{
+    transform: none;
+  }
+  .products-box{
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .products-item h3{
+    font-weight: bold;
+  }
+  .main-two{
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .main-two, .right-side{
+    margin-bottom: 10%;
+  }
+  .right-side h1{
+    font-size: 28px;
+  }
+  footer h1{
+    font-size: 20px;
+  }
+  footer p,i{
+    font-size: 16px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
